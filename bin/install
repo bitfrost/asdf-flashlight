@@ -35,8 +35,8 @@ OS="$(uname -s)"
 
 set_filename() {
   case "$OS" in
-    "Linux") FILENAME="flashlight-linux" ;;
-    "Darwin") FILENAME="flashlight-macos" ;;
+    "Linux") FILENAME="flashlight-linux.zip" ;;
+    "Darwin") FILENAME="flashlight-macos.zip" ;;
   esac
 }
 
