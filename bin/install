@@ -50,7 +50,7 @@ get_download_url() {
   local version="$1"
   local platform="$(get_platform)"
   local arch="$(get_arch)"
-  echo "https://github.com/bitfrost/bx/releases/download/v${version}/$FILENAME"
+  echo "https://github.com/bamlab/flashlight/releases/download/v${version}/$FILENAME"
 }
 
 set_filename
